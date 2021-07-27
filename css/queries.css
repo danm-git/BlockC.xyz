@@ -53,7 +53,7 @@
     gap: 4.8rem;
   }
 
-  .testimonials-container {
+  .AboutMe-container {
     padding: 9.6rem 3.2rem;
   }
 }
@@ -100,7 +100,7 @@
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
 
-  .section-testimonials {
+  .section-AboutMe {
     grid-template-columns: 1fr;
   }
 
@@ -202,7 +202,7 @@
     margin-bottom: 4.8rem;
   }
 
-  .pricing-plan {
+  .projects-plan {
     width: 100%;
   }
 
@@ -271,7 +271,7 @@
     transform: translateY(2.4rem);
   }
 
-  .testimonials {
+  .AboutMe {
     grid-template-columns: 1fr;
   }
 

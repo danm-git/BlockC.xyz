@@ -15,7 +15,8 @@
 }
 
 .logo {
-  height: 2.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
 }
 
 /**************************/
@@ -100,6 +101,7 @@
 
 .section-hero {
   background-color: #fdf2e9;
+  /*background-color: #116466;*/
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -165,13 +167,13 @@
 }
 
 .heading-featured-in {
-  font-size: 1.4rem;
+  font-size: 4.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 2.4rem;
-  color: #888;
+  color: #333;
 }
 
 .logos {
@@ -180,9 +182,9 @@
 }
 
 .logos img {
-  height: 3.2rem;
+  /*height: 3.2rem;
   filter: brightness(0);
-  opacity: 50%;
+  opacity: 50%;*/
 }
 
 /**************************/
@@ -334,21 +336,21 @@
 }
 
 /**************************/
-/* TESTIMONIALS SECTION */
+/* AboutMe SECTION */
 /**************************/
 
-.section-testimonials {
+.section-AboutMe {
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
 }
 
-.testimonials-container {
+.AboutMe-container {
   padding: 9.6rem;
 }
 
-.testimonials {
+.AboutMe {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4.8rem;
@@ -397,30 +399,31 @@
 /* MEALS SECTION */
 /**************************/
 
-.section-pricing {
+.section-projects {
   padding: 9.6rem 0;
 }
 
-.pricing-plan {
+.projects-plan {
   border-radius: 11px;
 
   width: 75%;
 }
 
-.pricing-plan--starter {
+.projects-plan--starter {
   justify-self: end;
-  border: 2px solid #fdf2e9;
+  border: 2px solid #333;
   padding: 4.6rem;
+  background-color: #fdf2e9;
 }
 
-.pricing-plan--complete {
+.projects-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
-.pricing-plan--complete::after {
+.projects-plan--complete::after {
   content: "Best value";
   position: absolute;
   top: 6%;
@@ -548,7 +551,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url("../img/eating.jpg");
+    url("../img/Me/portrait1.jpg");
   background-size: cover;
   background-position: center;
 }

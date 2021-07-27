@@ -94,7 +94,7 @@ Complete: $649 per month
 
 [Use the 12 photos we provided]
 
-### Customer testimonials
+### Customer AboutMe
 
 [Photos of customers included]
 
@@ -138,7 +138,7 @@ Privacy & terms
 - Featured in
 - How it works
 - Meals (and list of diets)
-- Testimonials + gallery
-- Pricing + features
+- AboutMe + gallery
+- Projects
 - CTA
 - Footer
