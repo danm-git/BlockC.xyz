@@ -215,6 +215,11 @@
   line-height: 1.8;
 }
 
+.step-description span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
 .step-img-box {
   position: relative;
 
@@ -366,7 +371,7 @@
 }
 
 .testimonial-img {
-  width: 6.4rem;
+  /* width: 6.4rem; */
   border-radius: 50%;
   margin-bottom: 1.2rem;
 }
@@ -391,6 +396,8 @@
 
 .gallery-item {
   overflow: hidden;
+  /* width: 270px; */
+  /* height: 200px; */
 }
 
 .gallery-item img {
@@ -401,7 +408,20 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+  opacity: 0.8;
 }
+
+.gallery-item-top {
+  width: 270px;
+  height: 355px;
+}
+
+/* Resize images */
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+*/
 
 /**************************/
 /* MEALS SECTION */
@@ -701,4 +721,12 @@
   text-align: center;
   margin-bottom: 2.4rem;
   color: #333;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
 }
