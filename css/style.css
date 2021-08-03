@@ -189,11 +189,11 @@
   justify-content: space-around;
 }
 
-.logos img {
-  /*height: 3.2rem;
+/* .logos img {
+  height: 3.2rem;
   filter: brightness(0);
-  opacity: 50%;*/
-}
+  opacity: 50%;
+} */
 
 /**************************/
 /* HOW IT WORKS SECTION */
@@ -204,7 +204,7 @@
 }
 
 .step-number {
-  font-size: 8.6rem;
+  font-size: 1.6rem;
   font-weight: 600;
   color: #ddd;
   margin-bottom: 1.2rem;
@@ -409,11 +409,6 @@
 .gallery-item img:hover {
   transform: scale(1.1);
   opacity: 0.8;
-}
-
-.gallery-item-top {
-  width: 270px;
-  height: 355px;
 }
 
 /* Resize images */
@@ -729,4 +724,8 @@
 
 .left {
   text-align: left;
+}
+
+.center {
+  text-align: center;
 }
