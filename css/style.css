@@ -381,6 +381,11 @@
   font-size: large;
 }
 
+.AboutMe span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
 .testimonial-img {
   /* width: 6.4rem; */
   border-radius: 50%;
