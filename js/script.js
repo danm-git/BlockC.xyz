@@ -48,6 +48,8 @@ allLinks.forEach(function (link) {
     if (href !== "#" && href.startsWith("#")) {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
+    } else {
+      window.open(href, "_blank").focus();
     }
 
     // Close mobile naviagtion
