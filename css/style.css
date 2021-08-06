@@ -370,7 +370,7 @@
 }
 
 .AboutMe-container {
-  padding: 9.6rem;
+  padding: 10.2rem;
 }
 
 .AboutMe {
@@ -379,6 +379,7 @@
   /* row-gap: 4.8rem; */
   /* column-gap: 8rem; */
   font-size: large;
+  /* font-family: "Roboto Slab", serif; */
 }
 
 .AboutMe span {
@@ -659,6 +660,7 @@
   list-style: none;
   display: flex;
   gap: 2.4rem;
+  padding-bottom: 2.4rem;
 }
 
 .social-icon {
@@ -679,6 +681,7 @@
   font-weight: 500;
   margin-bottom: 1rem;
   word-spacing: 2px;
+  color: #cf711f !important;
 }
 
 .contacts {
@@ -704,6 +707,10 @@
   font-size: 1.6rem;
   color: #767676;
   transition: all 0.3s;
+}
+
+.pright {
+  padding-right: 0.5rem;
 }
 
 .footer-link:hover,
