@@ -8,7 +8,6 @@
       content="Dan Munro Portfolio (Under Construction)"
     />
 
-    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale =1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -63,10 +62,10 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#projects">Projects</a></li>
           <li>
             <a class="main-nav-link" href="#experience">Experience</a>
           </li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
           <li>
             <a class="main-nav-link" href="#contact">Contact</a>
           </li>
@@ -91,8 +90,8 @@
               Hello and Welcome!  I am a Full Stack software developer with 17 years of industry
               experience.  Currently I am living in Thornton, Colorado and I am looking for a new work home!
             </p>
-            <a href="#projects" class="btn btn--full margin-right-sm"
-              >My latest projects</a
+            <a href="#experience" class="btn btn--full margin-right-sm"
+              >My Work Experience</a
             >
 
             <a href="#AboutMe" class="btn btn--outline">About me &darr;</a>
@@ -210,7 +209,6 @@
         <div class="AboutMe-container">
           <span class="subheading">About Me</span>
           <div class="AboutMe">
-            <!-- <span class="heading-tertiary2">My Life</span> -->
             <br>Hello! Most people call me Dan but I go by either <span>Dan</span> or <span>Daniel</span>!  I am pretty laid back and I like to work hard, think hard and enjoy life with family and friends!</br></br>I was born in
             <span>Boulder, Colorado</span> and grew up just outside in a town called <span>Broomfield</span>.  I attended <span>Colorado State Univeristy</span> where I met my future wife, <span>Linnia</span>.  
             </br></br>After college, Linnia and I packed up or belongings and moved to <span>Portland, OR!</span>  We lived in downtown Portland for 2 years when    
@@ -342,7 +340,7 @@
                 soon as I can. Thanks!
               </p>
 
-              <form class="cta-form" name="sign-up" netlify>
+              <form class="cta-form" method="POST" action="https://formspree.io/f/xleapyje" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
@@ -360,26 +358,22 @@
                     id="email"
                     type="email"
                     placeholder="me@example.com"
-                    name="email"
-                    required
-                  />
+                    name="_replyto"
+                    required/>
                 </div>
 
                 <div>
                   <label for="Comment/Question">Comment or Question</label>
                   <input
-                    id="subject"
-                    type="subject"
-                    placeholder="This site is amazing!"
-                    name="email"
-                    subject
-                  />
+                    id="message"
+                    type="message"
+                    placeholder="We can't wait to hire you!"
+                    name="message"
+                    subject maxlength="500"/>
                 </div>
 
-                <button class="btn btn--form">Submit Now</button>
+                <button type="submit" class="btn btn--form">Submit Now</button>
 
-                <!-- <input type="checkbox" />
-                <input type="number" /> -->
               </form>
             </div>
             <div
@@ -394,28 +388,6 @@
 
     <footer class="footer">
       <div class="container grid grid--footer">
-        <!--<div class="logo-col">
-          <a href="#" class="footer-logo">
-            <img
-              class="logo"
-              alt="FavIcon"
-              src="img/Blockchain/blockFavs.jpg"
-            />
-          </a>
-
-          <ul class="social-links">
-            <li>
-              <a class="footer-link" href="#"
-                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
-              ></a>
-            </li>
-          </ul>
-
-          <p class="copyright">
-            Copyright &copy; <span class="year">2027</span> by Dan.</br>
-            All rights reserved.         </br>
-        </div>  -->
-
         <div class="logo-col">
           <a href="#" class="footer-logo">
             <img
@@ -440,8 +412,7 @@
             Copyright &copy; <span class="year">2027</span> by Dan.</br>
             All rights reserved.         </br>
         </div>
-        </div>
-        
+        </div>     
       </div>
     </footer>
   </body>
