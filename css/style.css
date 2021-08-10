@@ -467,7 +467,7 @@
 
 .plan-header {
   text-align: center;
-  margin-bottom: 4.8rem;
+  margin-bottom: 2.8rem;
 }
 
 .plan-name {
@@ -721,4 +721,13 @@
 
 .center {
   text-align: center;
+}
+
+.middle {
+  vertical-align: text-bottom !important;
+}
+
+.project-img {
+  width: 100%;
+  padding: 0.5rem;
 }
