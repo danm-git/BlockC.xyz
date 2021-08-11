@@ -14,6 +14,10 @@
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .AboutMe-container {
+    padding: 4.2rem;
+  }
 }
 
 /**************************/
@@ -27,8 +31,8 @@
   }
 
   .grid {
-    column-gap: 4.8rem;
-    row-gap: 9.4rem;
+    column-gap: 2.8rem;
+    row-gap: 10.4rem;
   }
 
   .heading-secondary {
@@ -239,7 +243,7 @@
 
 @media (max-width: 34em) {
   .grid {
-    row-gap: 4.8rem;
+    row-gap: 5rem;
   }
 
   .grid--2-cols,
@@ -281,6 +285,14 @@
   .step-img-box {
     transform: translateY(2.4rem);
   }*/
+
+  .small-phone-top {
+    padding-top: 1% !important;
+  }
+
+  .step-description {
+    padding-top: 12%;
+  }
 
   .step-img {
     width: 45%;
