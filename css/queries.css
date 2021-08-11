@@ -28,7 +28,7 @@
 
   .grid {
     column-gap: 4.8rem;
-    row-gap: 6.4rem;
+    row-gap: 9.4rem;
   }
 
   .heading-secondary {
@@ -53,6 +53,10 @@
 
   .AboutMe-container {
     padding: 9.6rem 3.2rem;
+  }
+
+  .step-img {
+    width: 65%;
   }
 }
 
@@ -179,6 +183,10 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .step-img {
+    width: 45%;
+  }
 }
 
 /**************************/
@@ -219,6 +227,10 @@
     grid-column: span 2;
     margin-bottom: 3.2rem;
   }
+
+  .step-img {
+    width: 45%;
+  }
 }
 
 /**************************/
@@ -258,7 +270,7 @@
     height: 1.2rem;
   }
 
-  .step-img-box:nth-child(2) {
+  /*.step-img-box:nth-child(2) {
     grid-row: 1;
   }
 
@@ -268,6 +280,10 @@
 
   .step-img-box {
     transform: translateY(2.4rem);
+  }*/
+
+  .step-img {
+    width: 45%;
   }
 
   .AboutMe {
