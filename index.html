@@ -28,6 +28,10 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -91,7 +95,7 @@
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
-            <h1 class="heading-primary center-text">Daniel Munro</h1>
+            <h1 class="heading-primary center-text animate__animated animate__pulse">Daniel Munro</h1>
             <h1 class="heading-job center-text">Full Stack Developer</h1>
             <p class="hero-description">
               Hello and Welcome!  I am a Full Stack software developer with 17 years of industry
@@ -215,7 +219,7 @@
       <section class="section-AboutMe" id="AboutMe">
         <div class="AboutMe-container">
           <span class="subheading">About Me</span>
-          <div class="AboutMe">
+          <div class="AboutMe animate__animated animate__lightSpeedInLeft">
             <br>Hello! Most people call me Dan but I go by either <span>Dan</span> or <span>Daniel</span>!  I love hiking, traveling, running but mostly spending time with family and friends.
             <!-- </br></br> -->
             I was born in <span>Boulder, Colorado</span> and grew up just outside in the town of <span>Broomfield</span>.  I attended <span>Colorado State Univeristy</span> where I met my future wife, <span>Linnia</span>.  
@@ -577,6 +581,9 @@
       </div>
     </footer>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.Splitting();
+    </script>
     <script>
       AOS.init();
     </script>
