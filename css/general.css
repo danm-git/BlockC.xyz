@@ -143,9 +143,10 @@ body {
 }
 
 .heading-primary {
-  font-size: 5.2rem;
+  font-size: 8.2rem;
   line-height: 1.05;
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.2rem;
+  font-family: "Yellowtail", cursive;
 }
 
 .heading-secondary {
@@ -297,4 +298,10 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+.heading-job {
+  /* font-family: "Yellowtail", cursive; */
+  padding-bottom: 10px;
+  font-size: 4rem;
 }
