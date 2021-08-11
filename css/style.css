@@ -123,6 +123,7 @@
 
 .hero-img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .delivered-meals {
@@ -412,7 +413,7 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 /* Resize images */
@@ -731,6 +732,7 @@
   width: 100%;
   padding: 0.5rem;
   max-height: 165px;
+  border-radius: 15px;
 }
 
 .thirty {
