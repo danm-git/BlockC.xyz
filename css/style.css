@@ -113,12 +113,14 @@
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   align-items: center;
+  text-align: center;
 }
 
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+  font-family: "Source Serif Pro", serif;
 }
 
 .hero-img {
@@ -159,7 +161,7 @@
 
 .delivered-text {
   font-size: 1.8rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .delivered-text span {
@@ -712,7 +714,7 @@
   color: #cf711f;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
-  margin-top: 1.6rem;
+  margin-top: 3.6rem;
   letter-spacing: 0.75px;
 }
 
