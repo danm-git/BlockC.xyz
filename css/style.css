@@ -656,9 +656,8 @@
 }
 
 .social-icon {
-  height: 3.4rem;
-  width: 3.4rem;
-  margin-top: 2.1rem;
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 .copyright {
@@ -770,4 +769,17 @@
   font-size: 2em;
   /* text-transform: uppercase; */
   text-align: left;
+}
+
+.footer-social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+  padding-bottom: 0.8rem;
+}
+
+.footer-social-icon {
+  height: 3.4rem;
+  width: 3.4rem;
+  margin-top: 2.1rem;
 }
