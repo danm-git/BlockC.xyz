@@ -126,6 +126,7 @@
 .hero-img {
   width: 100%;
   border-radius: 15px;
+  border: solid 3px black;
 }
 
 .delivered-meals {
@@ -423,6 +424,7 @@
 
 .gallery-item {
   overflow: hidden;
+  border: solid 3px black;
 }
 
 .gallery-item img {
