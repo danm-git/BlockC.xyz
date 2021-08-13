@@ -305,3 +305,7 @@ strong {
   padding-bottom: 10px;
   font-size: 4rem;
 }
+
+#stats {
+  display: none !important;
+}
