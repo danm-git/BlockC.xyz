@@ -212,6 +212,11 @@
   .hero-description {
     margin-top: 15px;
   }
+
+  .logo-col,
+  .address-col {
+    grid-column: span 1 !important;
+  }
 }
 
 /**************************/
