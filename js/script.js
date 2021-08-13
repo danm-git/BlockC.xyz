@@ -15,7 +15,7 @@ console.log(h1);
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-yearEl.textContent = currentYear;
+// yearEl.textContent = currentYear;
 
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work
@@ -104,6 +104,8 @@ function checkFlexGap() {
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }
 checkFlexGap();
+
+Splitting();
 
 //////////////////////////////////////////////////////
 // Mighty Fish

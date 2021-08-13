@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Dan Munro Portfolio"/>
+    <meta name="description" content="Dan Munro Portfolio" />
 
     <meta name="viewport" content="width=device-width, initial-scale =1.0" />
 
@@ -15,27 +15,50 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
-    <script src="https://mrdoob.github.com/three.js/examples/fonts/helvetiker_regular.typeface.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting@0.11.3/splitting.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
 
-    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <script defer src="js/script.js"></script>
     <!-- <script>https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js</script> -->
 
     <title>Daniel Munro &mdash; Playground for effects</title>
-  
+    <!-- <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeConsoleRunner-d8236034cc3508e70b0763f2575a8bb5850f9aea541206ce56704c013047d712.js"></script> -->
+    <!-- <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRefreshCSS-4793b73c6332f7f14a9b6bba5d5e62748e9d1bd0b5c52d7af6376f3d1c625d7e.js"></script> -->
+    <!-- <script src="https://cpwebassets.codepen.io/assets/editor/iframe/iframeRuntimeErrors-4f205f2c14e769b448bcf477de2938c681660d5038bc464e3700256713ebe261.js"></script> -->
   </head>
+
   <body>
     <header class="header">
       <a href="#top">
-        <img class="logo" alt="FavIcon" style="width: 42px;" src="img/Blockchain/F1large.jpg" />
+        <img
+          class="logo"
+          alt="FavIcon"
+          style="width: 42px"
+          src="img/Blockchain/F1large.jpg"
+        />
       </a>
 
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li>
-            <a class="main-nav-link" href="#Particle">Particle</a>
+            <a class="main-nav-link" href="#experience">Experience</a>
+          </li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li>
+            <a class="main-nav-link" href="#contact">Contact</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#AboutMe">About Me</a>
           </li>
         </ul>
       </nav>
@@ -47,57 +70,31 @@
     </header>
 
     <main>
-      
-    
       <section class="section-hero">
-      <div>
-        <!-- <canvas id="nokey"> -->
-          <!-- Your Browser doesn not Support Canvas, Please try Chrome ^_^`` -->
-        <!-- </canvas> -->
-      </div>
-    </section>
+        <h1 class="heading-job center-text">Full Stack Developer</h1>
 
-      <section class="section-hero">
-        <div class="hero">
-          <div class="hero-text-box">
-            <h1 class="heading-primary center-text animate__animated animate__pulse">Daniel Munro</h1>    
+        <div class="laser-text-box">
+          <div class="title heading-job center-text">
+            <span
+              class="heading-job center-text text write"
+              data-splitting="lines"
+            >
+              Full Stack Developer<br />
+            </span>
+            <span
+              aria-hidden="true"
+              class="heading-job center-text text write laser"
+              data-splitting="lines"
+            >
+              Full Stack Developer<br />
+            </span>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer" id="world" >
-      <div id="instructions" class="container grid grid--footer">
-        <div class="logo-col">
-          <a href="#top" class="footer-logo">
-            <img
-              class="logo"
-              alt="FavIcon"
-              src="img/Blockchain/blockFavs.jpg"
-            />
-          </a>
-          <ul class="social-links">
-            <li>
-              <a style="color: #0077b5;" href="https://www.linkedin.com/in/daniel-e-munro" target="_blank"><ion-icon class="social-icon" name="logo-linkedin"></ion-icon></a>
-              <a style="color: #4078c0;" href="https://www.github.com/danm-git/" target="_blank"><ion-icon class="social-icon" name="logo-github"></ion-icon></a>
-              </li>
-          </ul>
-        <div class="address-col">
-          <p class="footer-heading">Contact Info</p>
-            <address>
-              <a class="footer-link" style="color: black;" href="tel:503-347-0513">Cell: (503) 347-0513</a><br/>
-              <a class="footer-link" style="color: blue;" href="mailto:daniel.e.munro@gmail.com">daniel.e.munro@gmail.com</a><br/>
-            </address>
-          <div class="copyright">
-            Copyright &copy; <span class="year">2027</span> by Dan.</br>
-            All rights reserved.         </br>
-        </div>
-        </div>     
-      </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <!-- <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script> -->
+    <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
+    <!-- <script src="https://codepen.io/shshaw/pen/5eb6d4e9bfd78e3911ed9d0d0dfce69b.js"></script> -->
   </body>
 </html>

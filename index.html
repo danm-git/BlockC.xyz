@@ -36,6 +36,10 @@
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/splitting@0.11.3/splitting.css"
+    />
 
     <script
       type="module"
@@ -100,7 +104,27 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary center-text animate__animated animate__pulse">Daniel Munro</h1>
-            <h1 class="heading-job center-text">Full Stack Developer</h1>
+            <h1 class="heading-job center-text">
+            <div class="laser-text-box center-text">
+              <div class="title heading-job center-text"">
+                <span
+                  class="heading-job center-text text write"
+                  style="width: 100%;"
+                  data-splitting="lines"
+                >
+                  Full Stack Developer<br />
+                </span>
+                <span
+                  aria-hidden="true"
+                  class="heading-job center-text text write laser"
+                  style="width: 100%;"
+                  data-splitting="lines"
+                >
+                  Full Stack Developer<br />
+                </span>
+              </div>
+            </div>
+            </h1>
             <p class="hero-description">
               Hello and Welcome!  I am a Full Stack software developer with 17 years of industry
               experience.  Currently I am living in Thornton, Colorado and I am looking for a new work home!
@@ -590,5 +614,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
   </body>
 </html>
