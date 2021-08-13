@@ -602,4 +602,4 @@ createLight();
 createFish();
 createParticle();
 loop();
-setInterval(flyParticle, 70); // launch a new particle every 70ms
+setInterval(flyParticle, 1); // launch a new particle every 70ms
