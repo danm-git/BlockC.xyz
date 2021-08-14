@@ -859,12 +859,12 @@
 
 .title .write .word,
 .title .laser .word {
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
   -webkit-animation-delay: calc(0.2s + var(--word-index) * 170ms);
   animation-delay: calc(0.2s + var(--word-index) * 170ms);
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 /* .title:hover .word { */
