@@ -1432,3 +1432,9 @@ to give the animation a nicer effect. */
     font-size: 4px;
   }
 }
+
+.hero-description span {
+  color: #cf711f;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
