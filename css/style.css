@@ -210,6 +210,10 @@
     width: 100%;
   }
 
+  #SpeechBubble {
+    font-size: 8px;
+  }
+
   /* .hero-description { */
   /* margin-top: 15px; */
   /* } */
@@ -383,7 +387,7 @@
 /**************************/
 
 .section-AboutMe {
-  background-color: #fdf2e9;
+  background-color: white;
   display: grid;
   grid-template-columns: 55fr 45fr;
   align-items: center;
@@ -391,6 +395,7 @@
 
 .AboutMe-container {
   padding: 14.2rem;
+  background-color: white;
 }
 
 .AboutMe {
@@ -454,8 +459,13 @@
 /* MEALS SECTION */
 /**************************/
 
+#projects {
+  background-color: #fdf2e9;
+}
+
 .section-projects {
-  padding: 9.6rem 0;
+  background-color: #fdf2e9;
+  padding: 3.6rem 0;
 }
 
 .projects-plan {
@@ -468,7 +478,8 @@
   justify-self: center;
   border: 2px solid #333;
   padding: 4.6rem;
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
+  background-color: white;
 }
 
 .projects-plan--complete {
@@ -1073,6 +1084,7 @@ set by jQuery instead */
   top: -75px;
   transform: scale(0);
   animation-fill-mode: forwards;
+  font-size: 12px;
 }
 /* We need to add a tail to the speech bubble. This is done using
 the ::before pseudo-element. The tail's size is controlled by 
