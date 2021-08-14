@@ -40,7 +40,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
   <title>Daniel Munro &mdash; Your next favorite Developer!</title>
 
@@ -102,7 +102,7 @@
             </div>
           </h1>
           <p class="hero-description">
-            Hello and Welcome to my page!  I am a Full Stack software developer with 17 years of financial industry
+            Hello and Welcome to my page! I am a Full Stack software developer with 17 years of financial industry
             experience. Currently I am living in Thornton, Colorado and I am looking for a new work home!
           </p>
           <a href="#experience" class="btn btn--full margin-right-sm">My Work Experience</a>
@@ -117,28 +117,32 @@
               <img class="thumbnail" src="img/Me/15.jpg" alt="14er photo" />
               <img class="thumbnail" src="img/Me/16.jpg" alt="14er photo" />
             </div>
-            <p class="delivered-text">
-              <span>23</span> of Colorado's <a
-                href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.688536%2C-106.52479&spn=3.687145%2C8.432007&t=p&z=8&mid=1K6oToycFKjjk257VHa7OcFbSLcI"><span>58</span></a>
-              14ers Summited!
-            </p>
+            <div id="wordDef">
+              <div id="SpeechBubble">14er is a term used to describe mountains that are 14,000 feet or higher.</div>
+
+              <p class="delivered-text">
+                <span>23</span> of Colorado's <a
+                  href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.688536%2C-106.52479&spn=3.687145%2C8.432007&t=p&z=8&mid=1K6oToycFKjjk257VHa7OcFbSLcI"><span>58</span></a>
+                14ers Summited!
+              </p>
+            </div>
           </div>
         </div>
         <div class="hero-img-box" data-aos="zoom-in-up" data-aos-delay="10" data-aos-duration="1000">
-          
+
           <div class="carousel">
             <input id="image1" type="radio" name="image-selector" checked="checked" />
             <label for="image7">View image 7</label>
             <img src="img/Me/17.jpg" />
-          
+
             <input id="image2" type="radio" name="image-selector" />
             <label for="image1">View image 1</label>
             <img src="img/Me/6.jpg" />
-          
+
             <input id="image3" type="radio" name="image-selector" />
             <label for="image2">View image 2</label>
             <img src="img/Me/4.jpg">
-          
+
             <input id="image4" type="radio" name="image-selector" />
             <label for="image3">View image 3</label>
             <img src="img/Me/13.jpg" />
@@ -146,7 +150,7 @@
             <input id="image5" type="radio" name="image-selector" />
             <label for="image4">View image 4</label>
             <img src="img/Me/14.jpg" />
-            
+
             <input id="image6" type="radio" name="image-selector" />
             <label for="image5">View image 5</label>
             <img src="img/Me/15.jpg" />
@@ -160,10 +164,10 @@
           </div>
 
           <!-- <picture> -->
-            <!-- <source srcset="img/Me/17.jpg" type="image/webp" /> -->
-            <!-- <source srcset="img/hero-min.png" type="image/png" /> -->
+          <!-- <source srcset="img/Me/17.jpg" type="image/webp" /> -->
+          <!-- <source srcset="img/hero-min.png" type="image/png" /> -->
 
-            <!-- <img src="img/Me/17.jpg" class="hero-img" alt="Top Of 14er" /> -->
+          <!-- <img src="img/Me/17.jpg" class="hero-img" alt="Top Of 14er" /> -->
           <!-- </picture> -->
         </div>
       </div>
@@ -640,6 +644,34 @@
     AOS.init();
   </script>
   <script src="https://unpkg.com/splitting/dist/splitting.js"></script>
+  <script>
+    var wordDef = $("#wordDef");
+    var speechBubble = $("#SpeechBubble");
+
+    // The the user hovers the mouse over
+    // the rectangle the "expand-bounce"
+    //animation is called and the duration
+    // is set to 250 miliseconds.
+    // When the user moves the mouse away
+    // the "shrink" animation gets called
+    // and the duration is set to 100
+    // miliseconds.
+    $("#wordDef").hover(
+      function () {
+        speechBubble.css({
+          "animation-name": "expand-bounce",
+          "animation-duration": "0.25s",
+        });
+      },
+      function () {
+        speechBubble.css({
+          "animation-name": "shrink",
+          "animation-duration": "0.1s",
+        });
+      }
+    );
+
+  </script>
 </body>
 
 </html>
