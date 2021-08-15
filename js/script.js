@@ -184,8 +184,9 @@ function init() {
   scene = new THREE.Scene();
 
   // create the camera
-  HEIGHT = 375; //window.innerHeight;
-  WIDTH = 1920; //window.innerWidth;
+  HEIGHT = 325; //375; //window.innerHeight;
+  WIDTH = window.innerWidth - 5;
+
   aspectRatio = WIDTH / HEIGHT;
   fieldOfView = 60;
   nearPlane = 1; // the camera won't "see" any object placed in front of this plane

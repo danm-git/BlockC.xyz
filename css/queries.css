@@ -114,6 +114,14 @@
     grid-template-columns: repeat(6, 1fr);
   }
 
+  .fx3 a .item h4 {
+    font-size: 50%;
+  }
+
+  .fx3 a .item p {
+    font-size: 50%;
+  }
+
   .cta {
     /* 3/5 = 60% + 2/5 = 40% */
     grid-template-columns: 3fr 2fr;
