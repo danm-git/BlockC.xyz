@@ -261,6 +261,10 @@
     grid-template-columns: 1fr;
   }
 
+  .projWebsite {
+    grid-column: 1 / span 1;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {

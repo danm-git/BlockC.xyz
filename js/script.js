@@ -184,7 +184,7 @@ function init() {
   scene = new THREE.Scene();
 
   // create the camera
-  HEIGHT = 325; //375; //window.innerHeight;
+  HEIGHT = 350; //375; //window.innerHeight;
   WIDTH = window.innerWidth - 5;
 
   aspectRatio = WIDTH / HEIGHT;

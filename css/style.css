@@ -214,10 +214,6 @@
     font-size: 8px;
   }
 
-  /* .hero-description { */
-  /* margin-top: 15px; */
-  /* } */
-
   .logo-col,
   .address-col {
     grid-column: span 1 !important;
@@ -477,7 +473,7 @@
 .projects-plan--starter {
   justify-self: center;
   border: 2px solid #333;
-  padding: 4.6rem;
+  padding: 3rem;
   /* background-color: #fdf2e9; */
   background-color: white;
 }
@@ -1438,4 +1434,9 @@ to give the animation a nicer effect. */
   color: #cf711f;
   font-weight: 900;
   font-size: 2.5rem;
+}
+
+.projWebsite {
+  grid-column: 1 / span 2;
+  width: 50%;
 }
