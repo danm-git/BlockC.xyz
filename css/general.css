@@ -1,3 +1,10 @@
+:root {
+  --color1: #edf6ff;
+  --color2: white;
+  --color3: #437fc7;
+  --color4: #1a304b;
+}
+
 /*
 --- 01 TYPOGRAPHY SYSTEM
 
@@ -202,13 +209,15 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: #e67e22;
+  /* background-color: #e67e22; */
+  background-color: var(--color3);
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #cf711f;
+  /* background-color: #cf711f; */
+  background-color: var(--color4);
 }
 
 .btn--outline:link,
@@ -219,7 +228,8 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  /* background-color: #fdf2e9; */
+  background-color: var(--color1);
 
   /* border: 3px solid #fff; */
 
@@ -242,7 +252,8 @@ body {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #e67e22;
+  /* color: #e67e22; */
+  color: var(--color3);
   text-decoration: none;
   border-bottom: 1px solid currentColor;
   padding-bottom: 2px;
@@ -251,7 +262,8 @@ body {
 
 .link:hover,
 .link:active {
-  color: #cf711f;
+  /* color: #cf711f; */
+  color: var(--color4);
   border-bottom: 1px solid transparent;
 }
 
@@ -274,13 +286,15 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+  /* background-color: var(--color3); */
 }
 
 *:focus {
   outline: none;
   /* outline: 4px dotted #e67e22; */
   /* outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+  /* box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5); */
+  box-shadow: 0 0 0 0.8rem var(--color4);
 }
 
 /* HELPER/SETTINGS CLASSES */
