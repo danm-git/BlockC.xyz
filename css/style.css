@@ -64,7 +64,6 @@
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  /* color: #cf711f; */
   color: var(--color4);
 }
 
@@ -73,13 +72,11 @@
   padding: 1.2rem 2.4rem;
   border-radius: 9px;
   color: #fff;
-  /* background-color: #e67e22; */
   background-color: var(--color4);
 }
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  /* background-color: #cf711f; */
   background-color: var(--color4);
 }
 
@@ -111,7 +108,6 @@
   height: 8rem;
   padding-top: 0;
   padding-bottom: 0;
-  /* background-color: rgba(255, 255, 255, 0.97); */
   background-color: var(--color1);
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
@@ -176,7 +172,6 @@
 .thumbnail:hover {
   transform: scale(2);
   border-radius: 100%;
-  /* height: auto; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 998;
 }
@@ -194,10 +189,6 @@
   color: #cf711f;
   font-weight: 700;
 }
-
-/**************************/
-/* FEATURED IN SECTION */
-/**************************/
 
 .section-featured {
   padding: 4.8rem 0 3.2rem 0;
@@ -250,10 +241,6 @@
   }
 }
 
-/**************************/
-/* HOW IT WORKS SECTION */
-/**************************/
-
 .section-how {
   padding: 9.6rem 0;
 }
@@ -296,9 +283,6 @@
 
 .step-img-box::before {
   width: 60%;
-  /* height: 60%; */
-
-  /* 60% of parent's width */
   padding-bottom: 60%;
 
   background-color: var(--color1);
@@ -308,7 +292,6 @@
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  /* background-color: #fae5d3; */
   background-color: var(--color3);
   z-index: -1;
 }
@@ -317,10 +300,6 @@
   width: 65%;
   border-radius: 15px;
 }
-
-/**************************/
-/* MEALS SECTION */
-/**************************/
 
 .section-meals {
   padding: 9.6rem 0;
@@ -392,7 +371,6 @@
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
-  /* color: #e67e22; */
   color: var(--color3);
 }
 
@@ -478,9 +456,9 @@
 }
 */
 
-/**************************/
-/* MEALS SECTION */
-/**************************/
+/*********************/
+/* PROJECTS SECTION */
+/********************/
 
 #projects {
   background-color: var(--color1);
@@ -593,9 +571,9 @@
   line-height: 1.8;
 }
 
-/**************************/
-/* CTA SECTION */
-/**************************/
+/*******************/
+/* CONTACT SECTION */
+/*******************/
 
 .section-cta {
   /* top / horizontal / left */
@@ -605,7 +583,6 @@
 
 .cta {
   display: grid;
-  /* 2/3 = 66.6% + 1/3 = 33.3% */
   grid-template-columns: 2fr 1fr;
   background-color: #e67e22;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
@@ -802,6 +779,7 @@
 }
 
 /* Mighty Fish */
+/* Thank you to CodePen and Karim Maaloul! */
 
 #world {
   /* background: linear-gradient(#8ee4ae, #e9eba3); */
@@ -894,11 +872,8 @@
 
 .title .write .word,
 .title .laser .word {
-  /* -webkit-animation-duration: 6s; */
   animation-duration: 6s;
-  /* -webkit-animation-delay: 0; calc(0.2s + var(--word-index) * 170ms); */
   animation-delay: calc(0.3s + var(--word-index) * 160ms);
-  /* -webkit-animation-iteration-count: 1; */
   animation-iteration-count: 1;
 }
 
@@ -1030,28 +1005,9 @@
   content: "\00BB";
 }
 
-/* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 
-/* body {
-  background-color: white;
-  font-family: "Open Sans", sans-serif;
-  padding: 5px 25px;
-  font-size: 18px;
-  margin: 0;
-  color: #444;
-}
-
-h1 {
-  font-family: "Merriweather", serif;
-  font-size: 32px;
-} */
-
-/* #wordDef is given a relative position so that 
-#SpeechBubble (its child) can be positioned correctly. 
-Without this step, #SpeechBubble  will be positioned 
-relative to the body instead */
 #wordDef {
   /* margin: 90px auto; */
   /* background-color: #ff5a5a; */
@@ -1060,15 +1016,6 @@ relative to the body instead */
   position: relative;
 }
 
-/* #SpeechBubble is set as a child of #wordDef to make positioning
-it easier. #SpeechBubble is given an absolute position so that its 
-position is relative to the #wordDef (its parent). Its scale is 
-set to zero since it should only appear when the mouse hovers over
-#wordDef. The 'animation-fill-mode' property is set to 'forwards' 
-so that  the scale value stays at 1 after the animation finishes, 
-otherwise  #SpeechBubble will disappear once the animation finishes. 
-The 'animation-name' property is omitted since it's going to be 
-set by jQuery instead */
 #SpeechBubble {
   position: absolute;
   transform-origin: 0% 100%;
@@ -1084,11 +1031,7 @@ set by jQuery instead */
   animation-fill-mode: forwards;
   font-size: 12px;
 }
-/* We need to add a tail to the speech bubble. This is done using
-the ::before pseudo-element. The tail's size is controlled by 
-its borders. The right and bottom borders are given a transparent
-color so that the tail still retains its shape while giving the
-desired look */
+
 #SpeechBubble::before {
   content: "";
   display: block;
@@ -1102,9 +1045,6 @@ desired look */
   transform: rotate(10deg);
 }
 
-/* Here the scale changes from 0 to 1. To add the bounciness 
-effect, the scale is set to 1.25 midway through the animation
-to give the animation a nicer effect. */
 @keyframes expand-bounce {
   0% {
     transform: scale(0);
@@ -1117,7 +1057,6 @@ to give the animation a nicer effect. */
   }
 }
 
-/* Here the scale simply goes from 1 back to 0 */
 @keyframes shrink {
   0% {
     transform: scale(1);
@@ -1130,9 +1069,7 @@ to give the animation a nicer effect. */
 @import url("https://fonts.googleapis.com/css?family=Rozha+One");
 @import url("https://fonts.googleapis.com/css?family=Raleway|Rozha+One");
 
-/* body {background-color: #a4a4a4;} */
 .col4 {
-  /*width: 33.33333333%; float: left;*/
   position: relative;
 }
 .transition {
