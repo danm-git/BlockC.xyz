@@ -865,7 +865,7 @@
   color: linear-gradient(to right bottom, hsl(0, 0%, 80%), #555);
   text-shadow: 0 0 0.01em currentColor;
   transform-style: preserve-3d;
-  -webkit-animation: write linear both;
+  /* -webkit-animation: write linear both; */
   animation: write linear both;
 }
 
@@ -888,17 +888,17 @@
   color: hsl(0, 100%, 75%);
   text-shadow: 0 0 0.1em currentColor;
   transform: translateZ(5px);
-  -webkit-animation: laser linear both;
+  /* -webkit-animation: laser linear both; */
   animation: laser linear both;
 }
 
 .title .write .word,
 .title .laser .word {
-  -webkit-animation-duration: 6s;
+  /* -webkit-animation-duration: 6s; */
   animation-duration: 6s;
-  -webkit-animation-delay: 0; /*calc(0.2s + var(--word-index) * 170ms);*/
-  animation-delay: 0; /*calc(0.2s + var(--word-index) * 170ms);*/
-  -webkit-animation-iteration-count: 1;
+  /* -webkit-animation-delay: 0; calc(0.2s + var(--word-index) * 170ms); */
+  animation-delay: calc(0.3s + var(--word-index) * 160ms);
+  /* -webkit-animation-iteration-count: 1; */
   animation-iteration-count: 1;
 }
 
@@ -913,19 +913,6 @@
   animation-delay: -0.4s;
 } */
 
-@-webkit-keyframes write {
-  from,
-  30% {
-    -webkit-clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%);
-    clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%);
-  }
-  70%,
-  to {
-    -webkit-clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%);
-    clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%);
-  }
-}
-
 @keyframes write {
   from,
   30% {
@@ -936,19 +923,6 @@
   to {
     -webkit-clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%);
     clip-path: polygon(-15% 0%, 120% 0%, 120% 100%, -15% 100%);
-  }
-}
-
-@-webkit-keyframes laser {
-  from,
-  30% {
-    -webkit-clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%);
-    clip-path: polygon(-20% 0%, -15% 0%, -15% 100%, -20% 100%);
-  }
-  70%,
-  to {
-    -webkit-clip-path: polygon(115% 0%, 120% 0%, 120% 100%, 115% 100%);
-    clip-path: polygon(115% 0%, 120% 0%, 120% 100%, 115% 100%);
   }
 }
 
