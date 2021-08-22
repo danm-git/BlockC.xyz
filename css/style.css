@@ -873,7 +873,7 @@
 .title .write .word,
 .title .laser .word {
   animation-duration: 6s;
-  animation-delay: calc(0.3s + var(--word-index) * 160ms);
+  animation-delay: 0ms; /*calc(0.3s + var(--word-index) * 160ms);*/
   animation-iteration-count: 1;
 }
 
