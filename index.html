@@ -12,13 +12,14 @@
   <link rel="icon" href="img/Blockchain/blockFavs.jpg" />
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   <link rel="manifest" href="manifest.webmanifest" />
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" />
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto+Slab:wght@300&display=swap">
   <link rel="stylesheet" href="css/general.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/queries.css" />
@@ -58,7 +59,10 @@
           <a class="main-nav-link" href="#experience">Experience</a>
         </li>
         <li>
-          <a class="main-nav-link" href="#projects">Projects/Classes</a>
+          <a class="main-nav-link" href="#projects">Latest Projects</a>
+        </li>
+        <li>
+          <a class="main-nav-link" href="#classes">Continuing Education</a>
         </li>
         <li>
           <a class="main-nav-link" href="#AboutMe">About Me</a>
@@ -78,7 +82,6 @@
   <!-- MAIN -->
   <main>
 
-    <!-- SECTION - HERO -->
     <section class="section-hero">
       <div class="hero">
         <div class="hero-text-box">
@@ -102,62 +105,30 @@
             services industry experience. I am currently living in Colorado!
           </p>
           <a href="#experience" class="btn btn--full margin-right-sm">Work Experience &darr;</a>
-          <a href="#projects" class="btn btn--outline">Latest Projects &darr;</a>
+          <a href="#classes" class="btn btn--outline toppad">Latest Classes &darr;</a>
 
           <div class="delivered-meals">
-            <div class="delivered-imgs">
-              <img class="thumbnail" src="img/Me/4.jpg" alt="14er photo" />
-              <img class="thumbnail" src="img/Me/6.jpg" alt="14er photo" />
-              <img class="thumbnail" src="img/Me/13.jpg" alt="14er photo" />
-              <img class="thumbnail" src="img/Me/14.jpg" alt="14er photo" />
-              <img class="thumbnail" src="img/Me/15.jpg" alt="14er photo" />
-              <img class="thumbnail" src="img/Me/16.jpg" alt="14er photo" />
-            </div>
-            <div id="wordDef">
-              <div id="SpeechBubble">14er is a term used to describe mountains that are 14,000 feet or higher.</div>
 
-              <p class="delivered-text">
-                <span>23</span> of Colorado's <a
-                  href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.688536%2C-106.52479&spn=3.687145%2C8.432007&t=p&z=8&mid=1K6oToycFKjjk257VHa7OcFbSLcI"><span>58</span></a>
-                14ers Summited!
-              </p>
-            </div>
           </div>
         </div>
 
-        <!-- MAIN PICTURES -->
-        <div class="hero-img-box" data-aos="zoom-in-up" data-aos-delay="10" data-aos-duration="2200">
-          <div class="carousel">
-            <input id="image1" type="radio" name="image-selector" checked="checked" />
-            <label for="image7">View image 7</label>
-            <img src="img/Me/17.jpg" />
-
-            <input id="image2" type="radio" name="image-selector" />
-            <label for="image1">View image 1</label>
-            <img src="img/Me/6.jpg" />
-
-            <input id="image3" type="radio" name="image-selector" />
-            <label for="image2">View image 2</label>
-            <img src="img/Me/4.jpg">
-
-            <input id="image4" type="radio" name="image-selector" />
-            <label for="image3">View image 3</label>
-            <img src="img/Me/13.jpg" />
-
-            <input id="image5" type="radio" name="image-selector" />
-            <label for="image4">View image 4</label>
-            <img src="img/Me/14.jpg" />
-
-            <input id="image6" type="radio" name="image-selector" />
-            <label for="image5">View image 5</label>
-            <img src="img/Me/15.jpg" />
-
-            <input id="image7" type="radio" name="image-selector" />
-            <label for="image6">View image 6</label>
-            <img src="img/Me/16.jpg" />
-
-            <label for="image7">View image 7</label>
-            <label for="image1">View image 1</label>
+        <div class="currProject projects-plan projects-plan--starter" id="projects">
+          <header class="plan-header">
+            <p class="plan-name">My latest Projects</p>
+            <p class="plan-text"></p>
+          </header>
+          <li class="list-item">
+            <ion-icon class="list-icon"></ion-icon>
+            <span>I have been working on DAN token and faucet along with the start of a smart ticketing app.  
+              This project is currently pointed to the Ropsten Test Network.  Stop by and see what's new!</span>
+          </li>
+          <div class="plan-sing-up">
+            <a href="https://master.d1by1l9f7e8bx7.amplifyapp.com" class="btn btn--full middle demo-btn">Demo</a>
+            <br />
+            <a href="https://github.com/danm-git/TicketBlock" class="btn btn--full middle">
+              <ion-icon class="social-icon middle" name="logo-github"></ion-icon> - GitHub Repo
+            </a> 
+            </div>
           </div>
         </div>
       </div>
@@ -233,11 +204,11 @@
     </section>
 
     <!-- SECTION - PROJECTS -->
-    <section class="section-projects" id="projects">
+    <section class="section-projects" id="classes">
       <div class="container">
-        <span class="subheading">Projects and Classes</span>
+        <span class="subheading">Continuing Education</span>
         <h2 class="heading-secondary">
-          Below are some of the projects and classes I have been working on in 2021. Some are still in progress.
+          Below are some of the classes I have been working on in 2021.
         </h2>
       </div>
 
@@ -337,7 +308,8 @@
           <p>&nbsp;</p>
           <p>&nbsp;</p>
           <div class="plan-sing-up">
-            <a href="https://github.com/danm-git/typescript-fundamentals/tree/master/typescript" class="btn btn--full middle">
+            <a href="https://github.com/danm-git/typescript-fundamentals/tree/master/typescript"
+              class="btn btn--full middle">
               <ion-icon class="social-icon middle" name="logo-github"></ion-icon> - GitHub Repo
             </a>
           </div>
@@ -675,6 +647,62 @@
             and a steady stream of foster kittens and dogs.
             </br></br>
           </div>
+          <!-- MAIN PICTURES -->
+          <div class="hero-img-box" data-aos="zoom-in-up" data-aos-delay="10" data-aos-duration="2200">
+            <div class="carousel">
+              <input id="image1" type="radio" name="image-selector" checked="checked" />
+              <label for="image7">View image 7</label>
+              <img src="img/Me/17.jpg" />
+
+              <input id="image2" type="radio" name="image-selector" />
+              <label for="image1">View image 1</label>
+              <img src="img/Me/6.jpg" />
+
+              <input id="image3" type="radio" name="image-selector" />
+              <label for="image2">View image 2</label>
+              <img src="img/Me/4.jpg">
+
+              <input id="image4" type="radio" name="image-selector" />
+              <label for="image3">View image 3</label>
+              <img src="img/Me/13.jpg" />
+
+              <input id="image5" type="radio" name="image-selector" />
+              <label for="image4">View image 4</label>
+              <img src="img/Me/14.jpg" />
+
+              <input id="image6" type="radio" name="image-selector" />
+              <label for="image5">View image 5</label>
+              <img src="img/Me/15.jpg" />
+
+              <input id="image7" type="radio" name="image-selector" />
+              <label for="image6">View image 6</label>
+              <img src="img/Me/16.jpg" />
+
+              <label for="image7">View image 7</label>
+              <label for="image1">View image 1</label>
+            </div>
+          </div>
+
+          <div class="delivered-meals">
+            <div class="delivered-imgs">
+              <img class="thumbnail" src="img/Me/4.jpg" alt="14er photo" />
+              <img class="thumbnail" src="img/Me/6.jpg" alt="14er photo" />
+              <img class="thumbnail" src="img/Me/13.jpg" alt="14er photo" />
+              <img class="thumbnail" src="img/Me/14.jpg" alt="14er photo" />
+              <img class="thumbnail" src="img/Me/15.jpg" alt="14er photo" />
+              <img class="thumbnail" src="img/Me/16.jpg" alt="14er photo" />
+            </div>
+            <div id="wordDef">
+              <div id="SpeechBubble">14er is a term used to describe mountains that are 14,000 feet or higher.</div>
+
+              <p class="delivered-text">
+                <span>23</span> of Colorado's <a
+                  href="https://www.google.com/maps/d/viewer?ie=UTF8&hl=en&msa=0&ll=38.688536%2C-106.52479&spn=3.687145%2C8.432007&t=p&z=8&mid=1K6oToycFKjjk257VHa7OcFbSLcI"><span>58</span></a>
+                14ers Summited!
+              </p>
+            </div>
+          </div>
+        </div>
         </div>
 
         <!-- About me Gallery -->

@@ -89,7 +89,7 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
-Splitting();
+// Splitting();
 
 // Mighty Fish - Thanks CodePen and Karim Maaloul
 
